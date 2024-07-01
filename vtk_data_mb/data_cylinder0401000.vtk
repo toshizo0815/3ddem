@@ -1,0 +1,22 @@
+# vtk DataFile Version 5.1
+Data.vtk
+ASCII
+DATASET UNSTRUCTURED_GRID
+ 
+POINTS    2 float
+           0           0           0
+           0           0           0
+ 
+CELL_TYPES    2
+           1
+           1
+ 
+POINT_DATA    2
+SCALARS radius float
+LOOKUP_TABLE default
+   15.0000000000000     
+   16.5000000000000     
+ 
+VECTORS direction float
+-14.91 -1.63  0.00
+-16.40 -1.80  0.00
